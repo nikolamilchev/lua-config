@@ -1,2 +1,2 @@
 # lua-config
-nvim config
+base lua config for nvim. need update
