@@ -1,4 +1,4 @@
-require("nvim-lsp-installer").setup({
+require("mason").setup({
     automatic_installation = true,
     ui = {
         icons = {

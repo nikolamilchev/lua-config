@@ -1,5 +1,3 @@
 return {
-    "williamboman/nvim-lsp-installer",
-        dependecies = { 'neovim/nvim-lspconfig'}
+    "mason-org/mason.nvim"
 }
-    
