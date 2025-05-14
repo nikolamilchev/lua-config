@@ -26,7 +26,7 @@ vim.keymap.set('n', '<S-F12>', vim.lsp.buf.references, { desc = 'Go to Reference
 vim.keymap.set('n', '<C-S-F12>', vim.lsp.buf.hover, { desc = 'Show Documentation' })
 
 -- Создать новую вкладку по Ctrl+Shift+N
-vim.keymap.set("n", "<C-S-N>", ":tabnew<CR>", { 
+vim.keymap.set("n", "<C-S-n>", ":tabnew<CR>", { 
   noremap = true,  -- Отключает рекурсивные мэппинги
   silent = true,   -- Не выводит команду в статус
   desc = "New tab" -- Описание для плагинов вроде which-key
